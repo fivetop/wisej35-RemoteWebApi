@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net48;net8.0-android</TargetFrameworks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EmbeddedResourceUseDependentUponConvention>true</EmbeddedResourceUseDependentUponConvention>
+    <RootNamespace>$(MSBuildProjectName.Replace(" ", "_").Replace("-", "_"))</RootNamespace>
+    <NoWarn>CA1416</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Themes\" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))'=='net'">
+    <Reference Include="System.Windows.Forms"><Aliases>swf</Aliases></Reference>
+    <Compile Remove="OfflineStartup.cs" />
+    <Content Include="OfflineStartup.cs" />
+	<Reference Include="System.Net.Http" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<None Remove="favicon.ico" />
+	<None Remove="Offline.html" />
+	<None Remove="Offline.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<HybridAsset Include="favicon.ico" />
+	<HybridAsset Include="Offline.html" />
+	<HybridAsset Include="Offline.json" />
+  </ItemGroup>
+
+  <ItemGroup>  
+    <PackageReference Include="EmbedIO" Version="3.5.2" />
+    <PackageReference Include="Wisej-3" Version="3.5.17" />
+    <PackageReference Include="Wisej-3-Hybrid" Version="3.5.17" />
+  </ItemGroup>
+
+</Project>
