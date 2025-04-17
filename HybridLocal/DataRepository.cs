@@ -32,8 +32,9 @@ namespace HybridLocal
 
 		public async Task<string> GetValue()
 		{
-			this._apiBaseUri.Path = "getValue";
-			return await this._httpClient.GetStringAsync(this._apiBaseUri.Uri);
+            this._apiBaseUri.Path = "getValue";
+            var rlt = await this._httpClient.GetStringAsync(this._apiBaseUri.Uri);
+            return rlt;
 		}
 	}
 }
