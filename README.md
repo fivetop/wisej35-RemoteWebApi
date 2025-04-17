@@ -15,19 +15,23 @@ devtunnel user login -g
 devtunnel host -p 5000
 
 
-PS E:\0 romee\0 src\1education\wisej\wisej-hybrid-examples-main\RemoteWebApi> devtunnel host -p 5000
+PS E:\0 romee\0 src\1education\wisej\wisej-hybrid-examples-main\RemoteWebApi> devtunnel host -p 5000 --allow-anonymous
 
 Hosting port: 5000
 
-Connect via browser: https://lrlhg4tx.asse.devtunnels.ms:5000, https://lrlhg4tx-5000.asse.devtunnels.ms
+Connect via browser: https://406cplzz.asse.devtunnels.ms:5000, https://406cplzz-5000.asse.devtunnels.ms
 
-Inspect network activity: https://lrlhg4tx-5000-inspect.asse.devtunnels.ms
+Inspect network activity: https://406cplzz-5000-inspect.asse.devtunnels.ms
 
-Ready to accept connections for tunnel: puzzled-pond-r1pq7fr.asse
-
-PS E:\0 romee\0 src\1education\wisej\wisej-hybrid-examples-main\RemoteWebApi>
+Ready to accept connections for tunnel: fun-book-w7cfrxs.asse
 
 ![poster](./img2.png)
+
+![poster](./img3.png)
+
+![poster](./img4.png)
+
+![poster](./img5.png)
 
 
 License
