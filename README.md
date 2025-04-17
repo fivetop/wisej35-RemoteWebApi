@@ -4,15 +4,18 @@ WiseJ 3.5 Hybrid를 사용하여 Windows, Android, IOS 동시에 개발하기
 
 ![poster](./img1.png)
 
-PS 사용 
+금번예제는 devtunnel 를 설치하고 안드로이드 에뮬레이터와 웹서버를 연결해야 합니다.
 
-winget install Microsoft.devtunnel
+
+PS를 사용하여 아래의 명령을 수행 합니다. 
+
+PS>> winget install Microsoft.devtunnel
 
 devtunnel 사용
 
 devtunnel user login -g
 
-devtunnel host -p 5000
+devtunnel host -p 5000 --allow-anonymous 
 
 
 PS E:\0 romee\0 src\1education\wisej\wisej-hybrid-examples-main\RemoteWebApi> devtunnel host -p 5000 --allow-anonymous
