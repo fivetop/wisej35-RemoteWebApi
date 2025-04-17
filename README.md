@@ -14,7 +14,6 @@ devtunnel user login -g
 
 devtunnel host -p 5000
 
-![poster](./img2.png)
 
 PS E:\0 romee\0 src\1education\wisej\wisej-hybrid-examples-main\RemoteWebApi> devtunnel host -p 5000
 
