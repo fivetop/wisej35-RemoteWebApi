@@ -7,7 +7,7 @@ namespace HybridLocal
 		static Program()
 		{
             //var apiUrl = "https://8snsmzqh-5000.use.devtunnels.ms/";
-            var apiUrl = "https://lrlhg4tx-5000-inspect.asse.devtunnels.ms";
+            var apiUrl = "https://6h9n2st2-5000.asse.devtunnels.ms/";
             Application.Services.AddService<DataRepository>(new DataRepository(apiUrl));
 		}
 
