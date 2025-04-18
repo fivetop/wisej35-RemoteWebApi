@@ -32,8 +32,11 @@ Ready to accept connections for tunnel: fun-book-w7cfrxs.asse
 
 ![poster](./img3.png)
 
+처음 실행하면 나오는 화면 
+
 ![poster](./img4.png)
 
+이후 나오는 화면 
 ![poster](./img5.png)
 
 
