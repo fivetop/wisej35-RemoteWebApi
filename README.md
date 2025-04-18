@@ -36,7 +36,7 @@ Ready to accept connections for tunnel: fun-book-w7cfrxs.asse
 
 ![poster](./img3.png)
 
-devtunnel 처음 실행하면 나오는 화면 
+호스트에서 시험을 위해 devtunnel 확인을 위한 처음 접속시 나오는 화면 
 
 ![poster](./img4.png)
 
@@ -44,7 +44,7 @@ devtunnel 처음 실행하면 나오는 화면
 ![poster](./img5.png)
 
 
-devtunnel 사용법 참조 : https://changsroad.tistory.com/575
+devtunnel에 대해 자세한 사용법 참조 : https://changsroad.tistory.com/575
 
 License
 -------
