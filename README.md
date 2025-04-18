@@ -32,7 +32,7 @@ Ready to accept connections for tunnel: fun-book-w7cfrxs.asse
 
 ![poster](./img2.png)
 
-
+실행하면 서버와 에뮬레이트가 연결된것을 확인 할 수 있음 
 
 ![poster](./img3.png)
 
