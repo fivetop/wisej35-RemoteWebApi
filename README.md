@@ -13,9 +13,9 @@ PS>> winget install Microsoft.devtunnel
 
 devtunnel 사용
 
-devtunnel user login -g
+devtunnel user login -g  // 로그인하기 
 
-devtunnel host -p 5000 --allow-anonymous 
+devtunnel host -p 5000 --allow-anonymous // devtunnel 실행   
 
 
 PS E:\0 romee\0 src\1education\wisej\wisej-hybrid-examples-main\RemoteWebApi> devtunnel host -p 5000 --allow-anonymous
@@ -28,11 +28,15 @@ Inspect network activity: https://406cplzz-5000-inspect.asse.devtunnels.ms
 
 Ready to accept connections for tunnel: fun-book-w7cfrxs.asse
 
+코드수정 
+
 ![poster](./img2.png)
+
+
 
 ![poster](./img3.png)
 
-처음 실행하면 나오는 화면 
+devtunnel 처음 실행하면 나오는 화면 
 
 ![poster](./img4.png)
 
